@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireME</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hire Me Form</title>
+        <link rel="stylesheet" href="portfoilo.css">
+    </head>
+
+    <body>
+        <h1 style="color: white;" >Hire Me</h1>
+        <p style="color: white;">Please fill out the form below to contact me regarding your project:</p>
+
+        <form id="hireform" action="process_form.php" method="POST">
+            <label style="color:#08f955;" for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label style="color: #08f955;" for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label style="color: #08f955;" for="project">Tell me about your project:</label><br>
+            <textarea id="project" name="project" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
